@@ -1,0 +1,138 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 70vh;
+    background: url("bg.jpg") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.hero-content h1 span {
+    color: #ff00cc;
+}
+
+.hero-content p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #ff00cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* ABOUT SECTION */
+.about {
+    background: white;
+    padding: 60px 10%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 28px;
+}
+
+.about-text h4 {
+    color: gray;
+}
+
+.about-img img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* SKILLS */
+.skills {
+    flex: 1;
+}
+
+.skills h3 {
+    margin-bottom: 15px;
+}
+
+.bar {
+    background: #ddd;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background: #ff00cc;
+    border-radius: 5px;
+}
+
+/* EXPERIENCE SECTION */
+.experience {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.exp-box {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 800px;
+    border-left: 6px solid #ff00cc;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.exp-box h3 {
+    margin-top: 0;
+}
